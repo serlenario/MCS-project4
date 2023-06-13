@@ -1,0 +1,89 @@
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+.header
+	width: 100%
+	padding: 50px
+	display: flex
+	justify-content: space-between
+	position: fixed
+	z-index: 3
+	background: #FFFFFF
+	top: 0px
+	&__links
+		li
+			margin-right: 25px
+			display: inline
+			&:last-child
+				margin-right: 0px
+
+.font
+	font-size: 50px
+	color: #E50043
+
+.main-section
+	background-image: url("../images/img.png")
+	height: 950px
+	background-size: cover
+	display: flex
+	justify-content: center
+	align-items: center
+	left: 0px
+	top: 140px
+	margin-bottom: 150px
+	margin-top: 140px
+
+	&__title
+		font-size: 100px
+		color: #E50043
+
+.second-section
+	display: flex
+	flex-direction: column
+	align-items: center
+	margin-bottom: 150px
+	&__box1
+		padding: 24px
+		margin-bottom: 150px
+	&__bottles
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		margin-bottom: 150px
+		.bottles
+			display: flex
+			flex-direction: column
+			align-items: center
+			margin-right: 100px
+			&:last-child
+				margin-right: 0px
+			img
+				margin-bottom: 42px
+			p
+				font-size: 25px
+				text-align: center
+	&__box2
+		padding: 30px 30px 30px 80px
+		display: flex
+		flex-direction: row-reverse
+		img
+			margin-right: 80px
+.text
+	font-size: 25px
+
+.border
+	border: 3px solid #F8BFC7
+	border-radius: 20px
+	width: 1040px
+
+.footer
+	background-color: #F8BFC7
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	top: 0px
+	&__title
+		font-size: 50px
+		color: #FFFFFF
